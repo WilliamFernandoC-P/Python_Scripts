@@ -1,10 +1,10 @@
 from Bio import Entrez
 from Bio import SeqIO
 
-# Set your email address (required for using NCBI Entrez)
+# Email address (required for using NCBI Entrez)
 Entrez.email = "email@email.com"
 
-# Define the list of accession numbers
+# Define the list of accession numbers (Each sequence accession number must be enclosed in quotation marks [""] and separated by a comma and a space)
 accession_numbers = ["MG230196.1", ...
 ]
     
