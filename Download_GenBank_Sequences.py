@@ -5,7 +5,7 @@ from Bio import SeqIO
 Entrez.email = "email@email.com"
 
 # Define the list of accession numbers (Each sequence accession number must be enclosed in quotation marks [""] and separated by a comma and a space)
-accession_numbers = ["MG230196.1", ...
+accession_numbers = ["NC_038235", "NC_001781"...
 ]
     
 # Download and save the sequences in FASTA format
